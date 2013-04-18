@@ -33,22 +33,26 @@ be ready to analyze and transform simple flow charts sketched on a single screen
 PROJECT STAGES
 The application development is divide into four parts/stages. These stages are as described
 below;
+
 4.1 Flow Chart Symbols Classification and Recognition
 This is the easiest of all other stages. It involves a little survey of all important symbols
 involved in drawing flow charts and what they mean in flow charts. Moreover, A simple
 model will be implemented to recognize individual symbols classified. This will build
 foundation to the sketchy recognizer described in part 4.2 below.
+
 4.2 Sketchy Recognizer
 This involves designing and implementing sketchy recognizer which should be able
 recognize flow chart symbols and should be taking in sketches in real time and the signals
 should be dependent on time. To do this it should be able to extract features from the
 sketches. The technologies involved will include Dynamic/Hidden Markov models.
+
 4.3 Grammar for Symbol Labels
 Flow chart symbols contain labels which carry information that dictate actions performed in
 flow chart symbols and aid in transition from one symbol to another. Grammar is necessary
 for the recognizer to understand the labels. This stage will define a set of words/sentences
 that the system should understand while extracting the features from the sketched flow
 chart.
+
 4.4 Automatic Program constructor
 The application should be able to convert the recognized flow chart to program source code.
 Furthermore, it should be able to give live feedback whenever the transformed code is
